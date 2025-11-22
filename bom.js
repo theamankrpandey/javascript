@@ -1,6 +1,5 @@
-var a=5
 console.log(a)
-alert ("welcome ankit")
+// alert ("welcome ankit")
 
 
 function hello(){
@@ -11,3 +10,8 @@ function deepak(){
 }
 hello()
 deepak()
+// console.log(a==b)
+var a=5
+var b='5'
+// === is used for checking data type and comparison
+console.log(a===b)
