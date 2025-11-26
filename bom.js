@@ -119,3 +119,12 @@
 //     }
 // }
 // number()
+
+
+function add(){
+   a= Number(prompt("enter a first number"))
+   b= Number(prompt("enter your second number"))
+   c=a+b
+   alert(c)
+}
+add()
