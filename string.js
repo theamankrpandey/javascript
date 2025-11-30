@@ -51,3 +51,16 @@ let b=5
 //  let age=21
 // alert("my name" + myname + "my age is" + age)
 // alert(`I am ${myname} and I am ${age} year old`)
+
+
+
+// 1. Character count (prompt + alert)
+// Prompt the user for a word (use prompt()), then alert the number of
+// characters of that word Example UI message: "Enter a word:".
+
+function greet(){
+    user_ans = prompt("enter a word")
+    alert(user_ans)
+}
+
+greet()
