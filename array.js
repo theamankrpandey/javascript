@@ -109,5 +109,59 @@
 
 //     alert(f);
 // }
-
 // h();
+
+
+// 1. Create and log array
+// Create an array of 4 fruits, e.g. ["apple","banana","mango","grapes"]. Use
+// console.log to print the array and also log its .length.
+
+// a =  ["apple","banana","mango","grapes"];
+// console.log(a);
+// console.log(a.length)
+
+// 2. push() and pop()
+// Use push() to add one fruit at the end and console.log the array; then use
+// pop() to remove the last item and console.log the array after removal.
+
+// a =  ["apple","banana","mango","grapes"];
+// a.push("kiwi")
+// console.log(a)
+
+// a.pop()
+// console.log(a)
+
+// 3. unshift() and shift()
+// Use unshift() to add a fruit to the start of the array and console.log; then use
+// shift() to remove the first element and console.log the result.
+
+// a =  ["apple","banana","mango","grapes"];
+// a.unshift("hello")
+// console.log(a)
+
+// a.shift()
+// console.log(a)
+
+
+// 4. concat() to merge arrays
+// Create two small arrays of colors and use concat() to merge them into one
+// array; console.log the merged array.
+
+// a=["green","yellow","pink"]
+// b=["black","blue","red"]
+// c=a.concat(b)
+// console.log(c)
+
+// 5. Sequence demo
+// Starting with an array, perform push, pop, unshift, shift in that sequence and
+// console.log the array after each operation to show how it changes
+
+a =  ["apple","banana","mango","grapes"]
+a.push("kiwi")
+console.log(a)
+a.pop()
+console.log(a)
+a.unshift("kiwi")
+console.log(a)
+a.shift()
+console.log(a)

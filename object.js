@@ -4,12 +4,12 @@
 // let arr = ["aman",21,"bhopal"]
 
 // key : value
-let object ={
-    myname:"aman",
-    myage : 21,
-    mycity : "bhopal",
-    fruits : ["apple","grapes","lemon"]
-}
+// let object ={
+//     myname:"aman",
+//     myage : 21,
+//     mycity : "bhopal",
+//     fruits : ["apple","grapes","lemon"]
+// }
 
 // console.log(object.myage) 
 // console.log(object).       access object value
@@ -17,11 +17,13 @@ let object ={
 // delete object.myname       delete 
 // console.log(object.fruits[1])
 
-function hello(){
-let myname = "aman"
+// function hello(){
+// let myname = "aman"
 
-    alert(myname)
-}
-function hii(){
-    alert(myname = "deepak")
-}
+//     alert(myname)
+// }
+// function hii(){
+//     alert(myname = "deepak")
+// }
+
+
