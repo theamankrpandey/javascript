@@ -156,12 +156,45 @@
 // Starting with an array, perform push, pop, unshift, shift in that sequence and
 // console.log the array after each operation to show how it changes
 
-a =  ["apple","banana","mango","grapes"]
-a.push("kiwi")
-console.log(a)
-a.pop()
-console.log(a)
-a.unshift("kiwi")
-console.log(a)
-a.shift()
-console.log(a)
+// a =  ["apple","banana","mango","grapes"]
+// a.push("kiwi")
+// console.log(a)
+// a.pop()
+// console.log(a)
+// a.unshift("kiwi")
+// console.log(a)
+// a.shift()
+// console.log(a)
+
+
+
+
+
+// 1) Create an array of 5 numbers and use a for loop to print each number
+// using an arrow function inside the loop.
+
+// arr=[1,2,3,4,5]
+
+// for (let i=0; i<arr.length; i++){
+//     let a =()=>console.log(arr[i]);
+//     a();
+// }
+
+
+// 2) Using an array of names, check inside a for loop:
+// If the name length is greater than 5, print "Long Name",
+// else print "Short Name"
+
+// a="amana"
+//     if (a.length>=5){
+//         console.log("long name")
+//     }
+//     else{
+//         console.log("short name")
+//     }
+
+
+
+// 3) Create an object student with properties: name, age, city.
+// Use a for…in loop to print all keys and values
+
