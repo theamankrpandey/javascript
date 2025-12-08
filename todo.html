@@ -10,18 +10,21 @@
     align-items: center; justify-content: center; 
     border: 1px solid black;
      background:linear-gradient(95deg,violet,rgb(130, 18, 130));">
+     
 
-        <div id="child" style="width: 400px; height: 300px; 
+      <div id="child" style="width: 400px; height: 300px; 
         display: flex; flex-direction: column; align-items: center;
-         justify-content: center; gap:15px; border: 1px solid black;
-          border-radius: 10px; background-color: rgba(210, 210, 6, 0.446);">
-          
-            <input type="text" placeholder="Add a new task" id="inputo" 
-            style="width: 50%; height: 25px;"> 
-            <div><button style="width: 80px; height: 30px;">Add</button></div>
+        justify-content: center; gap:15px; border: 1px solid black;
+        border-radius: 10px; background-color: rgba(210, 210, 6, 0.446);">
 
-        </div>
+    <div id="childone" style="display: flex; flex-direction: column;">
 
+    <input type="text" placeholder="Add a new task" id="inputo" value="" 
+    style="width: 70%; height: 25px;"> 
+
+    <button style="width: 80px; height: 30px;" onclick="clickoo()">Add</button>
+    </div>
+    </div>
     </div>
 
     <script src="todo.js"></script>
