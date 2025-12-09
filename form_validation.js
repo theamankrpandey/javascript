@@ -1,9 +1,9 @@
 let formvalidate=()=>{
-    let name=document.querySelector('#name').value
-    let number=document.querySelector('#number').value
-    let email=document.querySelector('#email').value
-    let pass=document.querySelector('#pass').value
-    let Cpass=document.querySelector('#cpass').value
+    let name=document.querySelector('#name').value.trim()
+    let number=document.querySelector('#number').value.trim()
+    let email=document.querySelector('#email').value.trim()
+    let pass=document.querySelector('#pass').value.trim()
+    let Cpass=document.querySelector('#cpass').value.trim()
 
     // p tag
     let errname=document.querySelector('#errname')
@@ -13,8 +13,34 @@ let formvalidate=()=>{
     let errcpass=document.querySelector('#errcpass')
 
     if(name==""){
-        errname.innerHTML="please enter your name"
+        errname.innerHTML="please enter your name !"
         errname.style.color="red"
         return false
     }
+    else  if(number==""){
+        errnum.innerHTML="please enter number !"
+        errnum.style.color="red"
+        return false
+    }
+    
+    if (number.length!=10){
+        errnum.innerHTML="please enter a valid number"
+        errnum.style.color="red"
+        return false
+    }
+    // if(email==""){
+    //     errname.innerHTML="please enter your email ! !"
+    //     errname.style.color="red"
+    //     return false
+    // }
+    // if(name==""){
+    //     errname.innerHTML="please enter your password !"
+    //     errname.style.color="red"
+    //     return false
+    // }
+    // if(name==""){
+    //     errname.innerHTML="please enter your Confirm password !"
+    //     errname.style.color="red"
+    //     return false
+    // }
 }
