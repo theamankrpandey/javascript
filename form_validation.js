@@ -28,16 +28,35 @@ let formvalidate=()=>{
         errnum.style.color="red"
         return false
     }
-    // if(email==""){
-    //     errname.innerHTML="please enter your email ! !"
-    //     errname.style.color="red"
-    //     return false
-    // }
-    // if(name==""){
-    //     errname.innerHTML="please enter your password !"
-    //     errname.style.color="red"
-    //     return false
-    // }
+    if (isNaN(number)){
+        errnum.innerHTML="please enter a number not Include alphabet !"
+        errnum.style.color="red"
+        return false
+    }
+
+    
+    if(email==""){
+        erremail.innerHTML="please enter your email ! !"
+        erremail.style.color="red"
+        return false
+    }
+    if(!email.includes("@") || !email.includes(".com")){
+        erremail.innerHTML="please enter your email ! !"
+        erremail.style.color="red"
+        return false
+    }
+
+    if(pass==""){
+        errpass.innerHTML="please enter your password !"
+        errpass.style.color="red"
+        return false
+    }
+    if(!(pass.match(/['@#$%^&*]/) && pass.match(/[]/)    )){
+        errpass.innerHTML="please enter Strong password !"
+        errpass.style.color="red"
+        return false
+    }
+
     // if(name==""){
     //     errname.innerHTML="please enter your Confirm password !"
     //     errname.style.color="red"
