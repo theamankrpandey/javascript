@@ -1,0 +1,20 @@
+#formparent{
+    width: 100%;
+    height: 800px;
+    background:linear-gradient( 99deg, rgb(94, 94, 242) ,rgb(243, 18, 243));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height:auto ;
+    display: inline-block;
+    flex-direction: column;
+   justify-content: space-around;     
+    align-items: center;
+    background: linear-gradient(125deg,rgb(123, 0, 255),rgb(232, 232, 37));    
+}
+
