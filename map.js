@@ -44,6 +44,8 @@ let data=[{
     city:"bihar"
 }]
 
-data.map((e)=>{
-    console.log(data)
+let newdata = data.map((e)=>{
+    return e
 })
+
+console.log(newdata)
