@@ -59,6 +59,7 @@ let formvalidate=()=>{
 
     else if(Password.match(/[1234567890]/ && Password.match(/[!@#$%^&*]/)
              && Password.match(/[A-Z]/) && Password.match(/[a-z]/)))
-            errpass.innerHTML="please enter a strong password"
+            errpass.innerHTML="please enter a strong password !"
+
 
 }
