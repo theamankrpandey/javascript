@@ -37,4 +37,3 @@ fetchdata()
 
 // console.log("C");
 
-
