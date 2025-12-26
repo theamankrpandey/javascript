@@ -21,31 +21,31 @@
 
 
 // reduce
-// let arr=[2,3,4,5,6,7,8]
+let arr=[2,3,4,5,6,7,8]
 
-// let newarr=arr.reduce((e,n)=>{
-//     return (e+n)
-// },0)
-// console.log(newarr);
+let newarr=arr.reduce((e,n)=>{
+    return (e+n)
+},0)
+console.log(newarr);
 
 
 
-let data=[{
-    name:"aman",
-    age:21,
-    city:"bhopal"
-},{
-   name:"deepak",
-    age:21,
-    city:"kolkata" 
-},{
-    name:"shravan",
-    age:21,
-    city:"bihar"
-}]
+// let data=[{
+//     name:"aman",
+//     age:21,
+//     city:"bhopal"
+// },{
+//    name:"deepak",
+//     age:21,
+//     city:"kolkata" 
+// },{
+//     name:"shravan",
+//     age:21,
+//     city:"bihar"
+// }]
 
-let newdata = data.map((e)=>{
-    return e
-})
+// let newdata = data.map((e)=>{
+//     return e
+// })
 
-console.log(newdata)
+// console.log(newdata)
